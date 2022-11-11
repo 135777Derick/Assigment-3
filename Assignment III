@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    //variable declaration
+    double bPrice, sPrice, profit;
+    // Out-put statement
+    cout<<"Please Enter the Buying price of the Item\n";
+    //Input statement
+    cin>>bPrice;
+    cout<<"Please Enter the Selling price of the Item\n";
+    cin>>sPrice;
+    // Arithmetic operation
+    profit = sPrice - bPrice;
+    cout<<"You made a profit of : "<<profit;
+
+    return 0;
+}
